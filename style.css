@@ -1,0 +1,128 @@
+#grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  margin: 25% 0% 25% 0%;
+}
+#grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 2px solid hsl(221, 100%, 96%);
+  border-radius: 25px;
+  box-shadow: 5px 5px 15px 1px hsl(241, 100%, 89%);
+}
+.yourResult {
+  margin: 20px 0px 20px 0px;
+  font-weight: bolder;
+}
+.second_section {
+  padding-left: 20px;
+  font-size: 11px;
+}
+@media (max-width: 375px) {
+  #grid2 {
+    display: block;
+  }
+  .yourResult {
+    margin: 0px 0px 20px 0px;
+  }
+  .second_section {
+    padding: 0px 10px 0px 10px;
+  }
+}
+#updown {
+  margin: 25% 0px 25% 0px;
+}
+#first_section {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-radius: 25px;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+}
+.circle {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  border-radius: 50%;
+  margin: auto;
+  position: relative;
+}
+.sectionText {
+  color: hsl(241, 100%, 89%);
+  font-size: 11px;
+  padding: 0px 20px 0px 20px;
+}
+.circleText {
+  position: absolute;
+  width: 100px;
+}
+.number {
+  font-size: 30px;
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+.great {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+.attribution {
+  color: hsl(241, 100%, 89%);
+  font-size: 11px;
+}
+.second_section {
+  padding-left: 20px;
+  font-size: 11px;
+}
+.second_section h2 {
+  margin: 20px 0px 20px 0px;
+}
+.second_section div {
+  display: grid;
+  grid-template-columns: 12% 47% 14% 26%;
+  height: 30px;
+  line-height: 30px;
+  margin: 10px 0px 10px 0px;
+  border-radius: 5px;
+}
+.second_section p {
+  margin: 0;
+  padding-left: 20px;
+  font-weight: bolder;
+}
+.second_section img {
+  padding: 5px;
+}
+#score {
+  color: hsl(224, 30%, 27%);
+}
+#hundred {
+  padding-left: 12px;
+  color: hsl(224, 30%, 27%, 0.5);
+}
+#continue {
+  padding: 0;
+  color: white;
+  background-color: hsl(224, 30%, 27%);
+  border-radius: 25px;
+  border: 8px solid hsl(224, 30%, 27%);
+  font-weight: bolder;
+  text-align: center;
+  margin: 20px 0px 20px 0px;
+}
+.reaction {
+  background-color: hsl(0, 100%, 67%, 0.1);
+  color: hsl(0, 100%, 67%);
+}
+.memory {
+  background-color: hsl(39, 100%, 56%, 0.1);
+  color: hsl(39, 100%, 56%);
+}
+.verbal {
+  background-color: hsl(166, 100%, 37%, 0.1);
+  color: hsl(166, 100%, 37%);
+}
+.visual {
+  background-color: hsl(234, 85%, 45%, 0.1);
+  color: hsl(234, 85%, 45%);
+}

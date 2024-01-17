@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <div id="grid">
+      <div></div>
+      <div id="grid2">
+        <div id="first_section">
+          <p class="yourResult" style="color: hsl(241, 100%, 89%)">
+            Your Result
+          </p>
+          <div class="circle" style="position: relative">
+            <div style="position: absolute; margin: auto; width: 100px">
+              <p class="number">76</p>
+              <p class="attribution" style="margin-top: 0">of 100</p>
+            </div>
+          </div>
+          <p class="great">Great</p>
+          <p class="sectionText">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+        <div class="second_section">
+          <h2 id="score">Summary</h2>
+          <div class="reaction">
+            <img src="assets/images/icon-reaction.svg" alt="reaction" />
+            <p>Reaction</p>
+            <p id="score">80</p>
+            <p id="hundred">/ 100</p>
+          </div>
+          <div class="memory">
+            <img src="assets/images/icon-memory.svg" alt="memory" />
+            <p>Memory</p>
+            <p id="score">92</p>
+            <p id="hundred">/ 100</p>
+          </div>
+          <div class="verbal">
+            <img src="assets/images/icon-verbal.svg" alt="verbal" />
+            <p>Verbal</p>
+            <p id="score">61</p>
+            <p id="hundred">/ 100</p>
+          </div>
+          <div class="visual">
+            <img src="assets/images/icon-visual.svg" alt="visual" />
+            <p>Visual</p>
+            <p id="score">72</p>
+            <p id="hundred">/ 100</p>
+          </div>
+          <p id="continue">Continue</p>
+        </div>
+      </div>
+      <div></div>
+    </div>
+  </body>
+</html>
